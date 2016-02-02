@@ -1,18 +1,17 @@
 {
   "name": "logatt",
-  "version": "0.0.1",
-  "description": "Log All the Things",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/hyxos/logatt"
-  },
-  "author": "Donnie Hicks <donnie@hyxos.ca> (https://hyxos.ca/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hyxos/logatt/issues"
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }
